@@ -1,0 +1,17 @@
+Số ngẫu nhiên = <masv> % 111;
+1. Tạo thêm một bảng masv_Supplier_<số ngẫu nhiên>(sid, sname, saddress, sphone, 
+	stax, sstatus), Bảng Categories và Product thì trước đó đã có rồi.
+2. Tạo thêm bảng masv_Size_<số ngẫu nhiên>(sizeid, sizename, sizestatus)
+3. Sửa bảng masv_Product_<số ngẫu nhiên> thêm vào 2 trường sid, sizeid 
+4. Tạo ra các trang để có thể thêm, hiển thị, xóa, sửa 
+			Supplier và Size và Product
+5. Tạo một trang để nhập tên sản phẩm, chọn Categories,
+				chọn Supplier và chọn Size, trong đó có một
+				hidden key chứa giá trị = Tên lớp_SoNgauNhien
+	Khi nhấn tìm kiếm thì tìm ra sản phẩm thỏa mãn, đồng thời hiển thị giá trị của hidden key.	
+
+0209266_supplier_31
+	0209266_product_31
+	0209266_categories_31
+	0209266_size_31
+	số ngẫu nhiên = 31
